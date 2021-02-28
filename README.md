@@ -4,3 +4,5 @@ A BMI calculator. The user inputs their height and weight and the app calculates
 
 Reference:
 https://www.cdc.gov/healthyweight/assessing/index.html
+
+Link: https://cameroncolburn.github.io/bmi-calculator/
