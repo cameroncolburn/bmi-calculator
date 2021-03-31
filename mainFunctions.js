@@ -1,5 +1,5 @@
 // event listener for calculate button
-var calculateButton = document.getElementById('button');
+var calculateButton = document.getElementById('get-results');
 calculateButton.addEventListener('click', calculateBmi);
 
 // BMI calculation function
@@ -12,6 +12,7 @@ function calculateBmi() {
     // calculate BMI
     bmi = [c / (d**2)] * 703;
 
+    //display results to the user
     var results = document.getElementById('results-pg');
     if (bmi < 18.5) {
         results.innerHTML = "Your BMI is " + "<strong><em>" + bmi.toFixed(1) + "</em></strong>" +  ". According to the CDC, your BMI is considered <strong><em>underweight</em></strong>."
